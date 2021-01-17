@@ -1,0 +1,31 @@
+body {
+background-color: lightblue;
+}
+.myTable {
+ background-color:#f2ff79;
+ border-collapse: collapse;
+border-color: black;
+margin-left: auto;
+margin-right: auto;
+
+color:rgb(8, 5, 168); 
+text-align: center;
+}
+.myTable th { 
+width:50%;
+text-align: center;
+font:bold 18px/1.1em Sofia,Arial, Helvetica, Sans-Serif;
+text-shadow: 1px 1px 4px black;
+letter-spacing:0.3em;
+background-color:#06bb00;
+color:white; 
+}
+.myTable td, .myTable th  { 
+padding:5px;
+border:1px solid #0c0c0c; 
+}
+.myTable td  { 
+    font-weight: bold;
+line-height:2.5em; 
+}
+.myTable tr:hover{background-color: azure;}
